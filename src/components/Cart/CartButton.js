@@ -9,7 +9,7 @@ const  CartButton = (props) => {
   }
   return (
     <button className='button' onClick={toggleHandler}>
-      <span>from Mycart</span>
+      <span>Mycart</span>
       <span className='badge'>1</span>
     </button>
   );
